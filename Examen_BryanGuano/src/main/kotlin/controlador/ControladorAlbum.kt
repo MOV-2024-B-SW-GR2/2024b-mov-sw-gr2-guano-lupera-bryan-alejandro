@@ -21,31 +21,6 @@ class ControladorAlbum(private var contadorAlbum: Int = 1) {
         }
     }
 
-//    fun crearAlbum(
-//        nombre: String,
-//        artista: String,
-//        cantidadCanciones: Int,
-//        genero: String,
-//        duracionTotal: Double,
-//        fechaCreacion: String
-//    ) {
-//        val albumes = albumDAO.getAlbumes().toMutableList()
-//
-//        val nuevoAlbum = Album(
-//            contadorAlbum,
-//            nombre,
-//            artista,
-//            cantidadCanciones,
-//            genero,
-//            duracionTotal,
-//            LocalDate.parse(fechaCreacion)
-//        )
-//        contadorAlbum++
-//        albumes.add(nuevoAlbum)
-//        albumDAO.guardarAlbumes(albumes)
-//    }
-
-
     fun crearAlbum(
         nombre: String,
         artista: String,
@@ -106,7 +81,6 @@ class ControladorAlbum(private var contadorAlbum: Int = 1) {
         albumDAO.guardarAlbumes(albumes)
         return true
     }
-
 
     private fun buscarAlbumPorId(albumes: List<Album>, id: Int): Album? {
         return albumes.find { it.id == id }
