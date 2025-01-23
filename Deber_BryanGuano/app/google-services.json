@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "657539766648",
+    "project_id": "examen-bryanguano",
+    "storage_bucket": "examen-bryanguano.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:657539766648:android:58a3b5f0cc8099f054d08d",
+        "android_client_info": {
+          "package_name": "com.example.examen_bryanguano"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCVvSvLfnGBUTActCV8lg_cSqmu7plO8pI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
